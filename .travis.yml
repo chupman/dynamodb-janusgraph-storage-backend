@@ -64,5 +64,4 @@ script:
   #- aws cloudformation validate-template --region us-west-2 --template-body `pwd | sed -e 's/\//\/\//g' -e 's/^/file:\//' -e 's/$/\/\/dynamodb-janusgraph-tables-multiple\.yaml/'`
 notifications:
   email:
-    - amcp@amazon.co.jp
-    - johanjcbs@gmail.com
+    - chris.hupman@gmail.com
